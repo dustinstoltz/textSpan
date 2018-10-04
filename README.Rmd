@@ -22,7 +22,7 @@ pacman::p_load(pluralize, ggplot2, ggrepel, ggExtra, Hmisc, plyr, RColorBrewer,
 
 The `textSpan` function is a measure which increases when a document is similar to documents which are not also similar to each other. This is defined by the following equations:
 
-(\S(i) = \sum_j (p_{ij} + \sum_q p_{iq} p_{qj})^2\)
+<img src="https://latex.codecogs.com/gif.latex?S(i)&space;=&space;\sum_j&space;(p_{ij}&space;&plus;&space;\sum_q&space;p_{iq}&space;p_{qj})^2" title="S(i) = \sum_j (p_{ij} + \sum_q p_{iq} p_{qj})^2" />
 
 # Simulated Examples
 
