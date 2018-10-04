@@ -17,23 +17,3 @@ install.packages("devtools")
 library(devtools)
 install_github("dustin-stoltz/textSpan")
 ```
-Load the additional packages needed for the network visualizations:
-```{r
-library(pacman)
-pacman::p_load(pluralize, ggplot2, ggrepel, ggExtra, Hmisc, plyr, RColorBrewer, 
-               colorRamps, tidyverse, grid, ggridges)
-```
-[//]: # (
-# Simulated Examples
-
-Using 
-
-# Empirical Examples
-
-## Using document by term frequency matrix
-
-## Using document by topic probability matrix
-
-References
-==========
-)
