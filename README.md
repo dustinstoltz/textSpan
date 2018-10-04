@@ -1,9 +1,3 @@
-
-
-```{r, echo = FALSE}
-knitr::opts_chunk$set(comment = "#>", collapse = TRUE)
-```
-
 # textSpan quickstart guide
 ===========================
 
