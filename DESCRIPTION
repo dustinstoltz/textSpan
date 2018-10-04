@@ -3,7 +3,7 @@ Type: Package
 Title: Measure of Textual Spanning
 Version: 0.1
 Authors@R: c(
-    person("Dustin", "Stoltz", email = "dstoltz@nd.edu", role = c("aut", "cre")),
+    person("Dustin", "Stoltz", email = "dstoltz@nd.edu", role = c("cre")),
     person("Marshall", "Taylor", email = "mtaylo15@nd.edu", role = c("aut"))
     )
 Maintainer: Dustin Stoltz <dstoltz@nd.edu>
