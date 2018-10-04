@@ -1,0 +1,42 @@
+
+
+---
+title: "Getting started with textSpan"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Getting started with textSpan}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, echo = FALSE}
+library(httr)
+knitr::opts_chunk$set(comment = "#>", collapse = TRUE)
+```
+
+# textSpan quickstart guide
+R package to measure  textual spanning on a document by document similarity matrix .
+
+Load the textSpan package and additional packages needed for visualizations.
+```{r}
+install_github("dustin-stoltz/textSpan")
+
+library(pacman)
+pacman::p_load(pluralize, ggplot2, ggrepel, ggExtra, Hmisc, plyr, RColorBrewer, 
+               colorRamps, tidyverse, grid, ggridges)
+```
+
+The `textSpan` function is a measure which increases when a document is similar to documents which are not also similar to each other. This is defined by the following equations:
+
+(\$$S(i) = \sum_j (p_{ij} + \sum_q p_{iq} p_{qj})^2$$\)
+
+# Simulated Examples
+
+Using 
+
+# Empirical Examples
+
+## Using document by term frequency matrix
+
+## Using document by topic probability matrix
+
