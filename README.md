@@ -29,9 +29,9 @@ pacman::p_load(ggneetwork, ggplot2, ggpubr, igraph, Hmisc, corrplot, tnet, stm, 
 ## Simulated Examples
 Load simulated datasets:
 ```{} 
-sim1 <- read.csv("sim_ring.csv")
-sim2 <- read.csv("sim_clique.csv")
-sim3 <- read.csv("sim_core_periph.csv")
+sim1 <- read.csv("sim_ring.csv", stringsAsFactors=FALSE, row.names=1)
+sim2 <- read.csv("sim_clique.csv", stringsAsFactors=FALSE, row.names=1)
+sim3 <- read.csv("sim_core_periph.csv", stringsAsFactors=FALSE, row.names=1)
 ```
 Calculate textual spanning scores using the textSpan function:
 ```{r}
