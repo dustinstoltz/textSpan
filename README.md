@@ -64,14 +64,16 @@ Prepare networks for ggplot2:
     sim.net3 <- ggnetwork(sim.net3, layout=l3, weight="weight")
 ```
 ### Ring Graph Graph
-
+```{r}
+```
 
 ### Bifurcated Clique Graph
-
+```{r}
+```
 
 ### Core Periphery Graph
-
-
+```{r}
+```
 
 
 ## Empirical Examples
