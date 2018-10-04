@@ -9,9 +9,10 @@ The `textSpan` function takes this document by document similarity matrix and ou
 
 # Function details
 
-Load the textSpan package from GitHub:
+Intall and load the textSpan package from GitHub:
 ```{r}
-install.packages("devtools")
-library(devtools)
-install_github("dustin-stoltz/textSpan")
+  install.packages("devtools")
+  library(devtools)
+  install_github("dustin-stoltz/textSpan")
+  library('textSpan')
 ```
