@@ -23,7 +23,7 @@ library(pacman)
 pacman::p_load(pluralize, ggplot2, ggrepel, ggExtra, Hmisc, plyr, RColorBrewer, 
                colorRamps, tidyverse, grid, ggridges)
 ```
-
+[//]: # (
 # Simulated Examples
 
 Using 
@@ -36,4 +36,4 @@ Using
 
 References
 ==========
-
+)
