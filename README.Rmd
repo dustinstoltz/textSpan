@@ -2,15 +2,9 @@
 
 ---
 title: "Getting started with textSpan"
-output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{Getting started with textSpan}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
 ---
 
 ```{r, echo = FALSE}
-library(httr)
 knitr::opts_chunk$set(comment = "#>", collapse = TRUE)
 ```
 
@@ -28,7 +22,7 @@ pacman::p_load(pluralize, ggplot2, ggrepel, ggExtra, Hmisc, plyr, RColorBrewer,
 
 The `textSpan` function is a measure which increases when a document is similar to documents which are not also similar to each other. This is defined by the following equations:
 
-(\$$S(i) = \sum_j (p_{ij} + \sum_q p_{iq} p_{qj})^2$$\)
+(\S(i) = \sum_j (p_{ij} + \sum_q p_{iq} p_{qj})^2\)
 
 # Simulated Examples
 
