@@ -4,7 +4,7 @@ Title: Measure of Textual Spanning
 Version: 0.1
 Authors@R: c(
     person("Dustin", "Stoltz", email = "dstoltz@nd.edu", role = c("aut", "cre")),
-    person("Marshall", "Taylor", email = "mtaylo15@nd.edu", role = c("aut", "cre"))
+    person("Marshall", "Taylor", email = "mtaylo15@nd.edu", role = c("aut"))
     )
 Maintainer: Dustin Stoltz <dstoltz@nd.edu>
 Description: Package used to measure textual spanning on a document by document similarity matrix.
