@@ -1,5 +1,4 @@
 # textSpan quickstart guide
-===========================
 
 Install and load the textSpan package from GitHub:
 ```{r}
@@ -8,7 +7,7 @@ Install and load the textSpan package from GitHub:
   install_github("dustin-stoltz/textSpan")
   library('textSpan')
 ```
-# Function details
+## Measure details
 
 This is an R package used to measure textual spanning on a document by document similarity matrix. The `textSpan` function takes this document by document similarity matrix and outputs a document specific measure which increases when a document is similar to documents which are not also similar to each other. This is defined by the following equations:
 
