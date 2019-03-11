@@ -9,5 +9,6 @@ URL: https://github.com/dustin-stoltz/textSpan
 Authors@R: c(
             person("Dustin", "Stoltz", email = "dstoltz@nd.edu", role = c("aut", "cre") ),
             person("Marshall", "Taylor", email = "mtaylo15@nd.edu", role = "aut"))
-RoxygenNote: 6.1.1.9000
+LazyData: true
 Encoding: UTF-8
+RoxygenNote: 6.1.1.9000
