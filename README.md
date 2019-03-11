@@ -2,10 +2,10 @@
 
 Install and load the textSpan package from GitHub:
 ```{r}
-  install.packages("devtools")
+  # install.packages("devtools")
   library(devtools)
-  install_github("dustin-stoltz/textSpan")
-  library('textSpan')
+  install_github("dustinstoltz/textSpan")
+  library(textSpan)
 ```
 ## Measure details
 
