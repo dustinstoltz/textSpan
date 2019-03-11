@@ -2,6 +2,8 @@
 
 [Dustin S. Stoltz](https://www.dustinstoltz.com) and [Marshall A. Taylor](https://www.marshalltaylor.net)
 
+<img align="middle" src="https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/srda/2019/srda_5/2378023119827674/20190208/images/large/10.1177_2378023119827674-fig6.jpeg" width="500" height="400">
+
 
 Install and load the textSpan package from GitHub:
 ```{r}
@@ -14,8 +16,6 @@ Install and load the textSpan package from GitHub:
   spanning.scores <- textSpan(sim0, alpha=1)
 
 ```
-
-<img align="middle" src="https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/srda/2019/srda_5/2378023119827674/20190208/images/large/10.1177_2378023119827674-fig6.jpeg" width="600" height="500">
 
 ## Measure details
 
