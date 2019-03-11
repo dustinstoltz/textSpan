@@ -26,6 +26,8 @@
         cSP <- rowSums(SP) 
         # standardize and invert the scores, equation (3) in the paper
         cSP <- ((cSP-mean(cSP))/sd(cSP))*-1
+        #
+        return(cSP)
       }
 
 # THE END -----------------------------------------------------------------
