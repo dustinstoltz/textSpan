@@ -1,19 +1,13 @@
 Package: textSpan
 Type: Package
-Title: Measure of Textual Spanning
 Version: 0.1
-Authors@R: c(
-    person("Dustin", "Stoltz", email = "dstoltz@nd.edu", role = c("cre")),
-    person("Marshall", "Taylor", email = "mtaylo15@nd.edu", role = c("aut"))
-    )
-Maintainer: Dustin Stoltz <dstoltz@nd.edu>
-Description: Package used to measure textual spanning on a document by document similarity matrix.
+Date: 2019-03-11
+License: GPL-3
+Title: Measure of Textual Spanning
+Description: Measures textual spanning on document similarity matrices.
 URL: https://github.com/dustin-stoltz/textSpan
-BugReports:
-Depends:
-    R (>= 3.5),
-Imports:
-Suggests:
-SystemRequirements:
-NeedsCompilation: no
-License: GNU General Public License v3.0
+Authors@R: c(
+            person("Dustin", "Stoltz", email = "dstoltz@nd.edu", role = c("aut", "cre") ),
+            person("Marshall", "Taylor", email = "mtaylo15@nd.edu", role = "aut"))
+RoxygenNote: 6.1.1.9000
+Encoding: UTF-8
