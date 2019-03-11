@@ -21,6 +21,6 @@ Finally, to make the measure more interpretable, we standardize the output by ta
 
 <p><img src="https://latex.codecogs.com/gif.latex?z%28S_i%29%20%3D%20%5Cleft%20%28%20%5Cfrac%7Bs_i-%5Cbar%7Bs%7D%7D%7B%5Csqrt%7B%5Cfrac%7B%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%7B%28s-%5Cbar%7Bs%7D%29%5E2%7D%7D%7Bn-1%7D%7D%7D%20%5Cright%20%29%20%5Ctimes%20-1"></p>
 
-For more elaborate discussion see Stoltz and Taylor (2019) ["Textual Spanning: Finding Discursive Holes in Text Networks"](https://journals.sagepub.com/doi/full/10.1177/2378023119827674) in _Socius_. The package includes four simulated datasets, but further explanation of the code and data necessary to reproduce the measures, graphs, and plots in the paper can be found here: https://github.com/dustinstoltz/textual_spanning_socius
+For more elaborate discussion see Stoltz and Taylor (2019) ["Textual Spanning: Finding Discursive Holes in Text Networks"](https://journals.sagepub.com/doi/full/10.1177/2378023119827674) in _Socius_. The package includes the four simulated similarity matrices used in the paper, but further explanation of the code and data necessary to reproduce the measures, graphs, and plots in the paper can be found here: https://github.com/dustinstoltz/textual_spanning_socius
 
 
