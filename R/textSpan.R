@@ -3,7 +3,8 @@
 #' The function outputs a vector of cumulative textual spanning scores for each document.
 #' @references \url{https://journals.sagepub.com/doi/10.1177/2378023119827674}
 #' @param Input must be a square matrix of similarity scores.
-#' @examples span.scores <- textSpan(mat, alpha=1)
+#' @examples span.scores <- textSpan(sim0, alpha=1)
+#' @export
 
     textSpan <- function(A, alpha=1){
         # zero the diagonal of the similarity matrix
