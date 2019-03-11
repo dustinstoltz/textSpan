@@ -1,6 +1,9 @@
-# TEXTUAL SPANNING --------------------------------------------------------
-# Input must be a square matrix of similarity scores. The function outputs
-# a vector of cumulative textual spanning scores for each document.
+#' Textual Spanning Function
+#'
+#' The function outputs a vector of cumulative textual spanning scores for each document.
+#' @references \url{https://journals.sagepub.com/doi/10.1177/2378023119827674}
+#' @param Input must be a square matrix of similarity scores.
+#' @examples span.scores <- textSpan(mat, alpha=1)
 
     textSpan <- function(A, alpha=1){
         # zero the diagonal of the similarity matrix
