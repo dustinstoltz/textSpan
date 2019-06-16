@@ -8,8 +8,7 @@
 Install and load the textSpan package from GitHub:
 ```{r}
   # install.packages("devtools")
-  library(devtools)
-  install_github("dustinstoltz/textSpan")
+  devtools::install_github("dustinstoltz/textSpan")
   library(textSpan)
   
   # example
