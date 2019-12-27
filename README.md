@@ -1,4 +1,4 @@
-# textSpan <img src='textspan.png' align="right" height="139" />
+# textSpan <img src='textspan.png' align="right" height="160" />
 
 [Dustin S. Stoltz](https://www.dustinstoltz.com) and [Marshall A. Taylor](https://www.marshalltaylor.net)
 
