@@ -1,9 +1,10 @@
-# textSpan quickstart guide
+# textSpan <img src='textspan.png' align="right" height="139" />
 
 [Dustin S. Stoltz](https://www.dustinstoltz.com) and [Marshall A. Taylor](https://www.marshalltaylor.net)
 
 <img align="middle" src="https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/srda/2019/srda_5/2378023119827674/20190208/images/large/10.1177_2378023119827674-fig6.jpeg" width="500" height="400">
 
+## Quickstart guide
 
 Install and load the textSpan package from GitHub:
 ```{r}
