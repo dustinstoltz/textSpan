@@ -8,7 +8,7 @@ textSpan is an R package to measure textual spanning
 # Overview
 
 Install and load the textSpan package from GitHub:
-```{r}
+```r
   # install.packages("devtools")
   devtools::install_github("dustinstoltz/textSpan")
   library(textSpan)
