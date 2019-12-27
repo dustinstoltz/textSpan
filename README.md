@@ -1,7 +1,9 @@
 # textSpan <img src='textspan.png' align="right" height="160" />
 
+
 [Dustin S. Stoltz](https://www.dustinstoltz.com) and [Marshall A. Taylor](https://www.marshalltaylor.net)
 
+textSpan is an R package to measure textual spanning
 
 # Overview
 
