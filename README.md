@@ -1,4 +1,4 @@
-**We are currently working through a coding error with the textSpan function. We will update this repository once we have fixed the issue.**
+**NOTE: We are currently working through a coding error with the textSpan function that may give erroneous results. We will update this repository once we have fixed the issue.**
 
 # textSpan <img src='textspan.png' align="right" height="160" />
 
