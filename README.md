@@ -1,4 +1,4 @@
-**NOTE: We fixed a coding error with the textSpan function**
+**NOTE: We fixed a coding error with the textSpan function (July 2020)**
 
 # textSpan <img src='textspan.png' align="right" height="160" />
 
