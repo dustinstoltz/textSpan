@@ -37,4 +37,9 @@ Finally, to make the measure more interpretable, we standardize the output by ta
 
 See the [Step by Step Guide](https://github.com/dustinstoltz/textSpan/blob/master/2020_spanning_step_by_step_guide.pdf) for a detailed breakdown of the steps involved in the function. For more elaborate discussion of the theoretical intuition motivating the measure see Stoltz and Taylor (2019) ["Textual Spanning: Finding Discursive Holes in Text Networks"](https://journals.sagepub.com/doi/full/10.1177/2378023119827674) in _Socius_. The package includes the four simulated similarity matrices used in the paper, but further explanation of the code and data necessary to reproduce the measures, graphs, and plots in the paper can be found here: https://github.com/dustinstoltz/textual_spanning_socius. **Note that we issued a correction when we discovered the function was not directly implementing the measure as defined by the equations in the paper.** The corrected function, as a result, will not precisely replicate the paper.
 
+### Performance
+To get a sense of how much time and resources `textSpan` uses up (as written in Base R above), we simulated a handful of similarities matrices between 50x50 and 10000x10000. The machine we used has a dual-core 2.40GHz processor with 16 GB of RAM running Ubuntu, and this chart shows the total minutes and total RAM used on each matrix.
+
+<img align="middle" src="https://raw.githubusercontent.com/dustinstoltz/textual_spanning_socius/master/Figure_A_Performance.png" width="600" height="500">
+
 
