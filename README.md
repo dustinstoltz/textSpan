@@ -1,4 +1,4 @@
-**NOTE: We are currently working through a coding error with the textSpan function that may give erroneous results. We will update this repository once we have fixed the issue.**
+**NOTE: We fixed a coding error with the textSpan function**
 
 # textSpan <img src='textspan.png' align="right" height="160" />
 
@@ -35,6 +35,6 @@ Finally, to make the measure more interpretable, we standardize the output by ta
 
 <p><img src="https://latex.codecogs.com/gif.latex?z%28S_i%29%20%3D%20%5Cleft%20%28%20%5Cfrac%7Bs_i-%5Cbar%7Bs%7D%7D%7B%5Csqrt%7B%5Cfrac%7B%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%7B%28s-%5Cbar%7Bs%7D%29%5E2%7D%7D%7Bn-1%7D%7D%7D%20%5Cright%20%29%20%5Ctimes%20-1"></p>
 
-For more elaborate discussion see Stoltz and Taylor (2019) ["Textual Spanning: Finding Discursive Holes in Text Networks"](https://journals.sagepub.com/doi/full/10.1177/2378023119827674) in _Socius_. The package includes the four simulated similarity matrices used in the paper, but further explanation of the code and data necessary to reproduce the measures, graphs, and plots in the paper can be found here: https://github.com/dustinstoltz/textual_spanning_socius
+See the Step by Step Guide for a detailed breakdown of the steps involved in the function. For more elaborate discussion of the theoretical intuition motivating the measure see Stoltz and Taylor (2019) ["Textual Spanning: Finding Discursive Holes in Text Networks"](https://journals.sagepub.com/doi/full/10.1177/2378023119827674) in _Socius_. The package includes the four simulated similarity matrices used in the paper, but further explanation of the code and data necessary to reproduce the measures, graphs, and plots in the paper can be found here: https://github.com/dustinstoltz/textual_spanning_socius. **Note that we issued a correction when we discovered the function was not directly implementing the measure as defined by the equations in the paper.** The corrected function, as a result, will not precisely replicate the paper.
 
 
