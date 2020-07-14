@@ -1,7 +1,7 @@
 Package: textSpan
 Type: Package
-Version: 0.1
-Date: 2019-03-11
+Version: 0.2.0
+Date: 2020-07-14
 License: GPL-3
 Title: Measure of Textual Spanning
 Description: Measures textual spanning on document similarity matrices.
