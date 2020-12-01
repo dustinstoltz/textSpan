@@ -7,7 +7,7 @@
 #' @export
 
     # corrected function
-    textSpan_corrected <- function(A, alpha=1){
+    textSpan <- function(A, alpha=1){
             diag(A) <- 0 
             den <- (rowSums(A != 0)) * ((rowSums(A)/
                                         (rowSums(A != 0)))^alpha)
@@ -30,7 +30,7 @@
 
 
     # function from original paper:
-    #     textSpan <- function(A, alpha=1){
+    #     textSpan_original <- function(A, alpha=1){
     #         # zero the diagonal of the similarity matrix
     #         diag(A) <- 0 
     #         # get denominator (i.e. weighted degree), adjustable by alpha
