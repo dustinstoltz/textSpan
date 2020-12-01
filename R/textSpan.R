@@ -7,19 +7,26 @@
 #' @export
 
     # corrected function
-    textSpan <- function(A, alpha=1){
-          diag(A) <- 0 
-          den <- (rowSums(A != 0)) * ((rowSums(A)/
-                                         (rowSums(A != 0)))^alpha)
-          PS <- A/den
-          ePS <- PS^-1
-          diag(ePS) <- 0
-          PS2 <- ePS %*% PS
-          SP <- (PS + PS2)^2  
-          cSP <- rowSums(SP) 
-          cSP <- ((cSP-mean(cSP))/sd(cSP))*-1
-          return(cSP)
-        }
+    textSpan_corrected <- function(A, alpha=1){
+            diag(A) <- 0 
+            den <- (rowSums(A != 0)) * ((rowSums(A)/
+                                        (rowSums(A != 0)))^alpha)
+            PS <- A/den
+
+            # --------------------
+            # corrected:
+            ePS <- PS^-1 # invert PS for division
+            # diag(ePS) <- 0
+            ePS[is.infinite(ePS)] <- 0
+            PS2 <- ePS %*% PS # sum paths of length two
+            SP <- (PS + PS2)^2  
+            # --------------------
+            
+            cSP <- rowSums(SP) 
+            cSP <- ((cSP-mean(cSP))/sd(cSP))*-1
+            
+            return(cSP)
+            }
 
 
     # function from original paper:
