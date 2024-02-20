@@ -1,6 +1,6 @@
 # Update February 2024
 
-The textSpan package is deprecateda as the function has been rolled into the `doc_centrality()` function in the R package [`text2map`](https://culturalcartography.gitlab.io/text2map/index.html).
+The textSpan package is deprecated as the function has been rolled into the `doc_centrality()` function in the R package [`text2map`](https://culturalcartography.gitlab.io/text2map/index.html).
 
 ```r
 install.packages("text2map")
