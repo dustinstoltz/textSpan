@@ -7,9 +7,12 @@ install.packages("text2map")
 library(text2map)
 
 help(doc_centrality)
+
+# example
+spanning_scores <- doc_centrality(dtm, method = "span")
+
 ```
 
-NOTE: We fixed a coding error with the textSpan function (July 2020)
 
 # textSpan <img src='textspan.png' align="right" height="160" />
 
@@ -18,18 +21,10 @@ NOTE: We fixed a coding error with the textSpan function (July 2020)
 
 textSpan is an R package to measure textual spanning
 
+NOTE: We fixed a coding error with the textSpan function (July 2020)
+
 # Overview
 
-Install and load the textSpan package from GitHub:
-```r
-  # install.packages("devtools")
-  devtools::install_github("dustinstoltz/textSpan")
-  library(textSpan)
-  
-  # example
-  spanning.scores <- textSpan(sim0, alpha=1)
-
-```
 <img align="middle" src="https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/srda/2019/srda_5/2378023119827674/20190208/images/large/10.1177_2378023119827674-fig6.jpeg" width="500" height="400">
 
 ## Measure details
